@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "vite build --outDir dist"
+    "build": "cd client && npm run build && mv client/dist dist"
   },
   "dependencies": {
     "nodemon": "^3.1.10"
